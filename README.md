@@ -6,7 +6,7 @@ A media search web app that lets you search and save high-quality photos and vid
 
 ## 🌐 Live Demo
 
-[View Live](https://unsplash-pexels-explorer.vercel.app/) <!-- Replace with your actual link -->
+(https://unsplash-pexels-explorer.vercel.app/) 
 
 ---
 
