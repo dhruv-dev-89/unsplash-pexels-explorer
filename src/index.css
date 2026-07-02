@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+body{
+    background:var(--color-bg);
+}
+
+#bottom{
+    background: linear-gradient(transparent,black);
+}
+
+:root {
+  /* Primary - buttons*/
+  --color-primary: #6D28D9;
+  --color-primary-hover: #5B21B6;
+  --color-primary-light: #F5F3FF;
+
+  /* Neutrals - backgrounds, text */
+  --color-bg: #FFFFFF;
+  --color-bg-soft: #F9FAFB;
+  --color-text: #111827;
+  --color-text-muted: #6B7280;
+  --color-border: #E5E7EB;
+
+  /* Accent - use sparingly, like 1 badge or highlight */
+  --color-accent: #F472B6;
+}
