@@ -12,8 +12,9 @@ A media search web app that lets you search and save high-quality photos and vid
 
 ## 📸 Preview
 
-(![Uploading image.png…]()
-) <!-- Add a screenshot to your repo -->
+---
+<img width="1900" height="911" alt="image" src="https://github.com/user-attachments/assets/8d554e8c-be35-4db5-b556-aabc7b5e53e0" />
+
 
 ---
 
