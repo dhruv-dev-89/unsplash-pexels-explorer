@@ -25,7 +25,7 @@ const SearchBar = () => {
                 setText(text.target.value);
             }}
             value={text}
-            className='w-full px-4 py-3 border border-gray-200 rounded-md text-gray-900 placeholder-gray-500 focus:border-violet-700 focus:ring-2 focus:ring-violet-100 focus:outline-none'
+            className='w-full pl-1  lg:px-4 py-3 border border-gray-200 rounded-md text-gray-900 placeholder-gray-500 focus:border-violet-700 focus:ring-2 focus:ring-violet-100 focus:outline-none'
             type="text" 
             placeholder='search anything...' />
             <button

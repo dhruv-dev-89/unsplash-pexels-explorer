@@ -22,18 +22,18 @@ const CollectionPage = () => {
     </h1>
 ):(
       <>
-      <div className='flex  flex-wrap gap-10 mx-8 lg:mx-20 mt-8 lg:mt-5 '>
+      <div className='flex  flex-wrap gap-5 mx-5 lg:mx-20 mt-8 lg:mt-5 '>
         {images.map((image,idx)=>{
         return <div key={idx} className='relative flex flex-col rounded-xl overflow-hidden'>
-          <img className='size-40 lg:size-60' src={image.src} alt="" />
-          <div id='bottom' className='absolute  w-full flex gap-3 justify-between items-center px-4 py-8 bottom-0 text-white'>
-            <h2 className='text-sm h-10 overflow-hidden capitalize font-bold'>{image.title}</h2>
+          <img className='size-32 lg:size-60' src={image.src} alt="" />
+          <div id='bottom' className='absolute  w-full flex gap-3 justify-between items-center px-4 py-2 lg:py-8 bottom-0 text-white'>
+            <h2 className='text-[8px] lg:text-sm h-10 overflow-hidden capitalize font-bold'>{image.title}</h2>
             <button
             onClick={(e)=>{
                 e.preventDefault();
                 e.stopPropagation();
                 dispatch(removeCollection(image.id));
-            }} className='bg-white/90 text-violet-700 text-sm font-medium px-4 py-1.5 rounded-md hover:bg-white transition-colors cursor-pointer'>Remove</button>
+            }} className='bg-white/90 text-violet-700 text-sm font-medium px-1 lg:px-4 lg:py-1.5 rounded-md hover:bg-white transition-colors cursor-pointer'>Remove</button>
         </div>
           
         </div>

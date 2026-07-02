@@ -8,6 +8,10 @@ body{
     background: linear-gradient(transparent,black);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   /* Primary - buttons*/
   --color-primary: #6D28D9;
